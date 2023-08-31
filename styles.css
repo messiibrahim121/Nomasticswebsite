@@ -1,0 +1,286 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+  background-color: #F0F0F0;;
+}
+.landing_page{
+    background-image: url(/images/images\ \(3\)\ 2\ \(1\).png);
+    height: 100vh;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+   width: 100%;
+  }
+  .toggle-bars {
+    position: absolute;
+    top:20px;
+    right:30px;
+    cursor:pointer;
+  }
+  .toggle-bars .bar {
+    width:35px;
+    background-color:#fff;
+    margin: 7px 0;
+    height:2px;
+   
+  }
+  .landing_page > nav {
+    background:transparent;
+    box-shadow: -52.46666717529297px 52.46666717529297px 52.46666717529297px 0px rgba(255, 255, 255, 0.10) inset, 52.46666717529297px -52.46666717529297px 52.46666717529297px 0px rgba(194, 194, 194, 0.10) inset;
+backdrop-filter: blur(101.26066589355469px);
+   
+  
+    
+  }
+ 
+ 
+  .nav {
+    display: none;
+  }
+  .show {
+    display: block !important;
+  }
+  .nav ul {
+    list-style-type: none;
+    padding:0;
+    margin-left: -20px;
+    margin-top: 23px;
+    
+  }
+  .nav ul li {
+    padding:10px 203px;
+    
+    
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+   
+  }
+ 
+ 
+ .buttons>button:hover{
+    background-color: #12C258;
+    transition: all ease-in-out 700ms;
+    
+ }
+ .buttons>button{
+   
+    width: 100px;
+     
+      border-radius: 8px; 
+     background: transparent;
+     color: white;
+     
+     outline: none;
+     border: 3px solid #12C258;
+    
+     
+     font-size: 20px;
+ }
+  .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+   
+    height: 50%;
+    width: 50%;
+  }
+  @media screen and (min-width:800px ){
+   
+    
+    nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /* padding:10px 20px; */
+    background-color:#252023;
+    color:#f5f5f5;
+  }
+    .toggle-bars {
+      display: none;
+    }
+    .nav {
+    display: block;
+  }
+  .nav ul {
+    display: flex;
+  }
+  .nav ul li {
+    padding:0 30px;
+    padding-bottom: 20px;
+    font-size:16px;
+  }
+  
+  
+  }
+
+ .innertxt > img{
+    margin-top: 20px;
+ }
+ 
+ .innertxt > p{
+    font-size: 20px;
+    padding-top: 10px;
+ }
+ .landing_txt >.innertxt > div> button{
+    padding:10px 58.471000000000004px ;
+
+border-radius: 30px;
+background-color: #12C258;
+border: 3px solid #12C258;
+outline: none;
+font-size: 25px;
+color: white;
+margin-top: 15px;
+transition: all ease-in-out 700ms;
+ }
+ .landing_txt >.innertxt > div> button:hover{
+    background-color: transparent;
+    border: 3px solid #12C258
+    ;
+    outline: none;
+ }
+
+ 
+.landing_txt{
+    
+    
+
+max-width: 43%;
+margin: 300px 40px;
+
+background: rgba(217, 217, 217, 0.10);
+box-shadow: -12.633333206176758px 12.633333206176758px 12.633333206176758px 0px rgba(255, 255, 255, 0.10) inset, 12.633333206176758px -12.633333206176758px 12.633333206176758px 0px rgba(165, 165, 165, 0.10) inset;
+backdrop-filter: blur(12.633333206176758px);
+margin-top: 80px;
+
+color: white;
+padding: 60px 60px;
+
+
+  }
+
+  @media screen and (max-width: 954px) {
+    .landing_txt{
+        max-width: 80%;
+        margin: 80px auto;
+        /* margin-top: ; */
+    }
+  }
+  @media screen and (max-width: 768px){
+    .services{
+      flex-direction: column;
+    }
+    .buttons{
+        display:block;
+       
+
+  }
+  .nav ul li {
+    padding:10px 358px;
+}}
+  
+  @media screen and (max-width: 425px) {
+    .landing_txt{
+        max-width: 98%;
+        margin: 90px auto;
+        /* margin-top: ; */
+    }
+    .nav ul li {
+        padding: 10px 174px;
+  }
+  .buttons{
+    display: block;
+  }}
+  @media screen and (max-width: 320px) {
+    .landing_txt{
+        max-width: 160%;
+        padding: 20px 20px;
+        margin: 90px auto;
+        /* margin-top: ; */
+    }
+    .nav ul li {
+        padding: 10px 153px;}
+    
+    .buttons{
+        display: none;
+    }
+  }
+/* ThirdSection */
+.third__section > h1{
+
+
+    text-align: center;
+    font-size: 50px;
+    padding-top: 25px;
+    border-bottom: 3px solid #12C258;
+    
+}
+ .services{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 75px;
+   
+  
+    
+ }
+.service{
+  border-radius: 10px;
+   position: relative;
+   width: 353px;
+   height: 495px;
+   border: 3px solid #12C258;
+    background: white;
+}
+.third__section{
+    height: 100vh;
+    margin-top: 150px;
+   background-color: #12C258;
+   
+}
+.helper>div{
+  padding: 12px 12px;
+  
+}
+
+.helper > .Book_truck_txt{
+  padding: 12px 32px;
+}
+.helper>button{
+  margin-top: 35px;
+  width: 250px;
+height: 57px;
+margin-left: 50px;
+background-color: #12C258;
+color: #fff;
+font-size: 18px;
+border: 3px solid #12C258;
+border-radius: 10px;
+font-weight: 700;
+}
+
+
+.service>button:hover{
+  background: transparent;
+  transition: all ease-in-out 900ms;
+  color: #12C258;
+}
+.Order_txt{
+  padding: 12px 42px;
+ 
+}
